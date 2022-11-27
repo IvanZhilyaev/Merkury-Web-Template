@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.container {
+    width: 1425px;
+    margin: 0 auto;
+}
+
+/*header start*/
+
+.home {
+    background-image: url(../img/Graph.png), url(../img/Grid.png), url(../img/Prostokąt\ 1.png);
+    background-position: center;
+    background-position-y: 250px, 0px, 0px;
+    background-repeat: no-repeat, no-repeat, repeat;
+    height: 1215px;
+}
+
+
+.header nav {
+    padding-top: 67px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+.header .logo {
+    margin-right: 550px;
+}
+
+.home .menu {
+    display: flex;
+    align-items: center;
+}
+
+.home .menu li {
+    margin-right: 52px;
+}
+
+.home .menu .login {
+    width: 130px;
+    border: 1px solid #233a72;
+    border-radius: 40px;
+    padding: 17px 43px 18px;
+    margin-right: 0;
+}
+
+.home .menu .login a {
+    color: #5584ff;
+}
+
+.header {
+    margin-bottom: 174px;
+}
+
+
+/*first section*/
+
+.home .get-started {
+    text-align: center;
+    margin-bottom: 88px;
+}
+
+.home .get-started h1 {
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.home .get-started h2 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #8492af;
+}
+
+.home .get-started .text {
+    margin-bottom: 109px;
+}
+
+.home .get-started .btn {
+    border: 1px solid #5584ff;
+    background-color: #5584ff;
+    padding: 17px 56px;
+    border-radius: 40px
+}
+
+.home .dashboard {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/*sec-section*/
+
+.sec-section, .sec-section a {
+    color: black;
+}
+
+.sec-section h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-right: 248px;
+    width: 255px;
+    padding-bottom: 33px;
+    margin: 0 auto;
+}
+
+.sec-section .features div {
+    width: 358px;
+    margin-right: 127px;
+}
+
+.sec-section .manage-your-workflow {
+    background: url(../img/Inteligentny\ obiekt\ wektorowy.png)center no-repeat;
+    background-position: top;
+    padding-top: 145px;
+    margin-left: 71px;
+}
+.sec-section .analitycs-insights {
+    background: url(../img/Inteligentny\ obiekt\ wektorowy2.png) center no-repeat;
+    background-position: top;
+    padding-top: 145px;
+}
+.sec-section .organize-your-deadlines {
+    background: url(../img/Inteligentny\ obiekt\ wektorowy3.png)center no-repeat;
+    background-position: top;
+    padding-top: 145px; 
+}
+
+.sec-section .analitycs-insights h3 {
+    margin-left: 70px;
+}
+
+.sec-section .organize-your-deadlines h3 {
+    width: 277px;
+}
+
+.sec-section .features {
+    display: flex;
+    align-items: center;
+}
+
+.sec-section p {
+    color: #8492af;
+    width: 358px;
+    text-align: center;
+    padding-bottom: 73px;
+}
+
+.sec-section .organize-your-deadlines p {
+    margin-right: 0;
+}
+
+.sec-section a {
+    border: 1px solid #dadee7;
+    border-radius: 40px;
+    padding: 18px 87px;
+    font-weight: 900;
+    margin-left: 54px;
+}
+
+.sec-section .features {
+    margin-bottom: 302px;
+}
+
+/*third section*/
+
+.third-section {
+    color: black;
+}
+
+.third-section h1 {
+    margin-bottom: 20px;
+}
+
+.third-section .checked-p {
+    background: url(../img/checked6.png) center no-repeat;
+    background-position: left;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #5584ff;
+    margin-bottom: 10px;
+    width: 390px;
+}
+
+.third-section .container {
+    display: flex;
+    align-items: center;
+}
+
+.third-section .description .first-p {
+    color: #8492af;
+    width: 590px;
+    margin-bottom: 40px;
+}
+
+.third-section .description .second-p {
+    color: #8492af;
+    width: 567px;
+    margin-bottom: 74px;
+}
+
+.third-section {
+    margin-bottom: 127px;
+}
+
+/*pre last section*/
+
+.pre-last-section {
+    background: url(../img/Graph.png), url(../img/Grid.png), url(../img/Prostokąt\ 1.png);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position-y: 35px, 0px, 0px;
+    background-position-x: -207px, -200px, 0px;
+    padding-top: 82px;
+}
+
+.pre-last-section span {
+    color: #8492af;
+}
+
+.pre-last-section h2 {
+    margin-bottom: 32px;
+}
+
+.pre-last-section .first-title {
+    background: url(../img/arrow\ kopia\ 3.png) center no-repeat;
+    background-position: right;
+}
+
+.pre-last-section .progres-done {
+    display: flex;
+    width: 390px;
+    padding-bottom: 204px;
+}
+
+.pre-last-section .in-progres {
+    margin-right: 50px;
+}
+
+.pre-last-section .task {
+    display: flex;
+    align-items: center;
+}
+
+.pre-last-section .taskImg {
+    position: absolute;
+    left: -43px;
+    bottom: -2580px;
+}
+
+.pre-last-section .hand {
+    position: absolute;
+    bottom: -2562px;
+    left: 360px;
+    z-index: 1;
+}
+
+.pre-last-section .taskImg:after {
+    content: "";
+    position: relative;
+}
+
+
+.pre-last-section .dropImg {
+    padding-top: 7px;
+}
+
+.pre-last-section .drag-drop {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-left: 104px;
+    padding-top: 53px;
+    background: url(../img/Arrow\ left.png), url(../img/Arrow\ right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position:bottom, bottom;
+    background-position-x: 0, 50px;
+}
+
+.pre-last-section .drag-drop h1 {
+    width: 450px;
+    margin-bottom: 50px;
+}
+
+.pre-last-section .drag-drop p {
+    margin-bottom: 40px;
+    color: #8492af;
+}
