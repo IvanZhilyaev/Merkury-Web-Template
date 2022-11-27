@@ -35,7 +35,7 @@ body {
 /*header start*/
 
 .home {
-    background-image: url(../img/Graph.png), url(../img/Grid.png), url(../img/Prostokąt\ 1.png);
+    background-image: url(../img/Graph.png), url(../img/Grid.png), url(../img/maintheme.png);
     background-position: center;
     background-position-y: 250px, 0px, 0px;
     background-repeat: no-repeat, no-repeat, repeat;
@@ -234,7 +234,7 @@ body {
 /*pre last section*/
 
 .pre-last-section {
-    background: url(../img/Graph.png), url(../img/Grid.png), url(../img/Prostokąt\ 1.png);
+    background: url(../img/Graph.png), url(../img/Grid.png), url(../img/maintheme.png);
     background-repeat: no-repeat, no-repeat, repeat;
     background-position-y: 35px, 0px, 0px;
     background-position-x: -207px, -200px, 0px;
