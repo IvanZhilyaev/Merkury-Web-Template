@@ -313,3 +313,208 @@ body {
     margin-bottom: 40px;
     color: #8492af;
 }
+
+
+/*last section*/
+
+.last-section {
+    color: black;
+    margin-top: 103px;
+}
+
+.last-section .powerfull-template {
+    text-align: center;
+}
+
+.last-section .powerfull-template p {
+    color: #8492af;
+    margin-top: 60px;
+}
+
+.last-section .screen-mockup {
+    margin-top: 90px;
+    text-align: center;
+} 
+
+.last-section .clean-modern, .easy-to-customize {
+    position: absolute;
+}
+
+.last-section .clean-modern {
+    text-align: left;
+    float: left;
+    top: 3980px;
+    left: 20px;
+}
+
+.last-section .easy-to-customize {
+    text-align: right;
+    float: right;
+    top: 4275px;
+    right: 20px;
+}
+
+.last-section .easy-to-customize .pINlast {
+    margin-left: 450px;
+}
+
+.last-section .pINlast {
+    width: 232px;
+    color: #8492af;
+}
+
+/*exactly the last section/ pricing section*/
+
+.pricing-section {
+    color: black;
+    padding-bottom: 100px;
+}
+
+.pricing-section .dec-price {
+    color: #8492af;
+    letter-spacing: 0.02em;
+    background: url(../img/checked6.png) no-repeat center;
+    padding-top: 10px;
+    background-position-x: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.pricing-section .h2-plan {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 49px;
+    margin-bottom: 29px;
+}
+
+
+.pricing-section h3 {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+}
+
+.pricing-section .title-pricing {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 105px;
+}
+
+.pricing-section .dollar {
+    font-size: 40px;
+}
+
+.pricing-section .month {
+    color: #8492af;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pricing-section .primary-price {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.primary-price .price {
+    margin-right: 143px;
+    width: 359px;
+    height: 421px;
+    box-shadow: 0.5px 0.5px 50px rgba(0, 0, 0, 0.375);
+}
+
+.pricing-section .third-price {
+    margin-right: 0;
+}
+
+.pricing-section .false-price {
+    background: url(../img/Prostokąt\ 18\ kopia\ 3.png) center no-repeat;
+    padding-top: 10px;
+    background-position-x: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.pricing-section .desc-btn p {
+    text-align: center;
+    color: #8492af;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 112px;
+    margin-bottom: 72px;
+}
+
+.pricing-section .desc-btn {
+    text-align: center;
+}
+
+.pricing-section .join {
+    color: white;
+    background: #5584ff;
+    border: 1px solid #5584ff;
+    border-radius: 40px;
+    padding: 17px 63px;
+}
+
+.pricing-section .btn {
+    position: relative;
+}
+
+.pricing-section .btn:before {
+    display: block;
+    width: 227px;
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #dadee7;
+    top: 50%;
+    right: 360px;
+}
+
+.pricing-section .btn:after {
+    display: block;
+    width: 227px;
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #dadee7;
+    top: 50%;
+    right: 840px;
+}
+
+/*footer*/
+
+footer {
+    color: #8492af;
+    background-color: #0e1a35;
+}
+
+footer .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 71px;
+    padding-bottom: 67px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+}
+
+footer ul li {
+    margin-right: 50px;
+}
+
+footer ul li a {
+    color: #8492af;
+}
+
+footer img {
+    margin-right: -30px;
+}
+
+footer .contact p {
+    margin-left: 20px;
+}
