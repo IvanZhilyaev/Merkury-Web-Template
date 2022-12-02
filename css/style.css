@@ -222,6 +222,10 @@ body {
     align-items: center;
 } */
 
+.third-section .description {
+    margin-left: 50px;
+}
+
 .third-section .description .first-p {
     color: #8492af;
     width: 590px;
