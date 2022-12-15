@@ -1051,9 +1051,12 @@ footer .contact p {
         transition: transform 0.4s;
     }
     
+    .home {
+        height: 1100px;
+    }
 
     .first-section .dashboard {
-        margin-top: 113px;
+        margin-top: 85px;
     }
     .pre-last-section .progres-done {
         flex-direction: column;
@@ -1098,12 +1101,15 @@ footer .contact p {
 }
 
 @media screen and (max-width: 540px) {
+    .home {
+        height: 1000px;
+    }
     .container {
         width: 360px;
     }
 
-    .first-section .dashboard {
-        margin-top: 142px;
+    .first-section .div-dashboard .dashboard {
+        margin-top: 15px;
     }
 
     .third-section .description {
@@ -1149,6 +1155,9 @@ footer .contact p {
 }
 
 @media screen and (max-width: 420px){
+    .first-section .dashboard {
+        margin-top: 200px;
+    }
     .pricing-section .btn::after {
         left: 10px;
         width: 60px;
