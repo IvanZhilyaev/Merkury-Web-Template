@@ -22,6 +22,10 @@ h1 {
     font-size: 60px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -77,10 +81,40 @@ body {
     margin-bottom: 174px;
 }
 
+.header .burger-menu .menu-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+header .burger-menu .menu-btn span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    transition: transform 0.3s;
+}
+
+header .burger-menu .menu-btn span:nth-child(2) {
+    top: calc(50% - 10px);
+}
+
+header .burger-menu .menu-btn span:nth-child(3) {
+    top: calc(50% + 10px);
+}
+
 
 /*first section*/
 
-.home .get-started {
+.get-started {
     text-align: center;
     margin-bottom: 88px;
 }
@@ -214,13 +248,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
 }
 
 /* .third-section .container {
     display: flex;
     align-items: center;
 } */
+
+.third-section .img-mac {
+    width: 100%;
+}
 
 .third-section .description {
     margin-left: 50px;
@@ -339,7 +376,9 @@ body {
 
 .last-section {
     color: black;
-    margin-top: 103px;
+    padding-top: 103px;
+    background-color: #f6f7fa;
+    height: 1100px;
 }
 
 .last-section .powerfull-template {
@@ -448,7 +487,7 @@ body {
 .primary-price .price {
     width: 359px;
     height: 421px;
-    box-shadow: 0.5px 0.5px 50px rgba(0, 0, 0, 0.375);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.243);
 }
 
 .pricing-section .third-price {
@@ -784,17 +823,17 @@ footer .contact p {
     }
 
     .pre-last-section img {
-        width: 370px;
+        width: 330px;
     }
 
     .pre-last-section .hand {
-        width: 96px;
-        left: 335px;
-        bottom: -190px;
+        width: 70px;
+        left: 318px;
+        bottom: -180px;
     }
 
     .pre-last-section .taskImg {
-        width: 490px;
+        width: 450px;
         left: -35px;
     }
 
@@ -832,10 +871,325 @@ footer .contact p {
     .first-section .dashboard {
         margin-top: 98px;
     }
+
+    .pricing-section .btn::after {
+        left: 10px;
+    }
+
+    .pricing-section .btn:before {
+        right: 10px;
+    }
+
+    .pre-last-section img {
+        width: 290px;
+    }
+
+    .pre-last-section .taskImg {
+        width: 400px;
+    }
+
+    .pre-last-section .hand {
+        left: 275px;
+        bottom: -187px;
+    }
+
+    header nav {
+        text-align: left;
+        flex-direction: column;
+    }
+
+    header .menu {
+        margin-top: 30px;
+    }
+
+    .last-section .left-elipsa {
+        width: 325px;
+    }
+
+    .last-section .easy-to-customize {
+        bottom: 97px;
+    }
+
+    .last-section .right-elipsa {
+        width: 325px;
+    }
+
+    .last-section .clean-modern {
+        bottom: 260px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .container {
+        width: 576px;
+    }
+    .first-section .dashboard {
+        margin-top: 92px;
+    }
+
+    .third-section .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .third-section .description {
+        margin-left: 30px;
+    }
+    .third-section .description .second-p {
+        margin-bottom: 20px;
+    }
+    .third-section .img-mac {
+        margin-top: 20px;
+    }
+
+    .pre-last-section img {
+        width: 263px;
+    }
+    .pre-last-section .taskImg {
+        width: 373px;
+    }
+
+    .last-section .right-elipsa {
+        width: 250px;
+    }
+    .last-section .clean-modern {
+        bottom: 215px;
+    }
+    .last-section .pINlast {
+        width: 170px;
+        font-size: 10px;
+    }
+    .last-section .left-elipsa {
+        width: 255px;
+    }
+    .last-section .easy-to-customize {
+        bottom: 80px;
+        width: 255px;
+    }
+    .last-section .easy-to-customize .pINlast {
+        margin-left: 85px;
+    }
+
+    .pricing-section .btn::after {
+        left: 10px;
+        width: 150px;
+    }
+    .pricing-section .btn::before {
+        right: 10px;
+        width: 150px;
+    }
+
+    footer .contact {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    footer .contact p {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .container {
         width: 540px;
+    }
+
+    .header .burger-menu .menu-btn {
+        display: block;
+        margin-right: 0;
+    }
+
+    header nav {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    header .menu {
+        margin-top: 0;
+        top: 0;
+        left: -30px;
+        width: 250px;
+        height: 200px;
+        padding: 15px;
+        background: white;
+        border-radius: 40px;
+        box-shadow: 2px 2px 10px black;
+        transform: translateY(-400%);
+        transition: transform 0.5s; 
+        color: black;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    header .menu a {
+        color: rgb(2, 35, 113);
+    }
+
+    header .menu.active {
+        transform: translateY(10%);
+        align-items: flex-end;
+    }
+
+    header .menu.active li {
+        margin-bottom: 5px;
+    }
+
+    header .menu-btn.active span:nth-child(1) {
+        display: none;
+    }
+
+    header .menu-btn.active span:nth-child(2) {
+        top: 50%;
+        transform: translate(-50%, 0) rotate(45deg);
+        transition: transform 0.4s;
+    }
+
+    header .menu-btn.active span:nth-child(3) {
+        top: 50%;
+        transform: translate(-50%, 0) rotate(-45deg);
+        transition: transform 0.4s;
+    }
+    
+
+    .first-section .dashboard {
+        margin-top: 113px;
+    }
+    .pre-last-section .progres-done {
+        flex-direction: column;
+        padding-bottom: 30px;
+        width: 340px;
+    }
+    .pre-last-section .in-progres {
+        margin-bottom: 150px;
+        margin-right: 0;
+    }
+    .pre-last-section .taskImg {
+        bottom: -140px;
+        left: -30px;
+    }
+    .pre-last-section .hand {
+        bottom: -128px;
+        left: 255px;
+    }
+    
+    .pricing-section .btn::after {
+        width: 25%;
+        left: 3%;
+    }
+    .pricing-section .btn::before {
+        width: 25%;
+        right: 3%;
+    }
+
+    .last-section .right-elipsa {
+        width: 240px;
+    }
+
+    .last-section .clean-modern {
+        bottom: 200px;
+    }
+    .last-section .easy-to-customize {
+        bottom: 75px;
+    }
+    .last-section .left-elipsa {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        width: 360px;
+    }
+
+    .first-section .dashboard {
+        margin-top: 142px;
+    }
+
+    .third-section .description {
+        margin: 0;
+        width: 100%;
+    }
+
+    .third-section .description h1  {
+        display: inline-block;
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .third-section .description .first-p, .second-p {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .third-section .description .checked-p {
+        width: 100%;
+    }
+
+    .pre-last-section .drag-drop {
+        width: 100%;
+    }
+
+    .pricing-section .btn::after {
+        left: -20px;
+        width: 80px;
+    }
+    .pricing-section .btn::before {
+        right: -20px;
+        width: 80px;
+    }
+
+    footer ul {
+        flex-wrap: wrap;
+    }
+
+    footer ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .pricing-section .btn::after {
+        left: 10px;
+        width: 60px;
+    }
+    .pricing-section .btn::before {
+        right: 10px;
+        width: 60px;
+    }
+    .pre-last-section .drag-drop h1 {
+        width: 100%;
+    }
+
+    header .menu {
+        left: -50px;
+    }
+
+    .last-section .mockup {
+        margin-top: 150px;
+    }
+
+    .last-section .clean-modern  {
+        position: relative;
+        font-size: 18px;
+        margin-top: -150px;
+    }
+
+    .last-section .clean-modern .right-elipsa {
+        display: none;
+    }
+
+    .last-section .clean-modern .pINlast, .easy-to-customize .pINlast {
+        font-size: 18px;
+    }
+
+    .last-section .easy-to-customize {
+        width: 255px;
+        font-size: 18px;
+        bottom: -130px;
+    }
+
+    .last-section .easy-to-customize .left-elipsa {
+        display: none;
     }
 }
