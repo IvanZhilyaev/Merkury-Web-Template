@@ -1202,3 +1202,78 @@ footer .contact p {
         display: none;
     }
 }
+
+@media screen and (max-width: 375px){
+    .container {
+        width: 290px;
+    }
+
+    header .menu {
+        left: -20px;
+    }
+
+    .first-section .get-started {
+        margin-bottom: 15px;
+    }
+
+    .sec-section .features >div >p {
+        display: inline-block;
+        width: 290px;
+    }
+
+    .sec-section .features >div {
+        width: 290px;
+    }
+
+    .sec-section .features >div:nth-child(2) h3 {
+        margin-left: 20px;
+    }
+
+    .third-section .description .second-p {
+        width: 290px;
+    }
+
+    .pre-last-section .progres-done {
+        width: 290px;
+    }
+
+    .pre-last-section .progres-done .absolute-images .taskImg {
+        width: 290px;
+        left: -35px;
+    }
+
+    .pre-last-section .progres-done .absolute-images .hand {
+        width: 50px;
+        left: 190px;
+    }
+
+    .pre-last-section .drag-drop {
+        padding-bottom: 100px;
+        background-position-y: 500px, 500px;
+    }
+
+    .last-section .absolute-div1 h2 {
+        font-size: 25px;
+    }
+
+    .last-section .absolute-div2 h2 {
+        font-size: 25px;
+    }
+
+    .pricing-section .primary-price >div {
+        width: 290px;
+    }
+
+    .pricing-section .primary-price >div >p {
+        background-position-x: 0px;
+    }
+
+    .pricing-section .btn::after {
+        left: 0px;
+        width: 30px;
+    }
+    .pricing-section .btn::before {
+        right: 0px;
+        width: 30px;
+    }
+}
